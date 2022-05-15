@@ -1,35 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emma Ros Actriz</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-
-
-</head>
-<body>
-    <nav>
-        <input type="checkbox" id="check">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="check" />
         <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
+          <i class="fas fa-bars"></i>
         </label>
         <a href="#" class="enlace">
-            <img class="emma-logo" src="logo/Emma_banner.png" alt="" >
+          <img class="emma-logo" src="logo/Emma_banner.png" alt="" />
         </a>
         <ul>
-            <li><a class="active" href="#">Inicio</a></li>
-            <li><a href="#">Sobre mí</a></li>
-            <li><a href="#">Galeria</a></li>
-            <li><a href="#">Videoclips</a></li>
-            <li><a href="#">Contacto</a></li>
+          <li><a class="active" href="#">Inicio</a></li>
+          <li><a href="#SobreMi">Sobre mí</a></li>
+          <li><a href="#Galeria">Galeria</a></li>
+          <li><a href="#">Videoclips</a></li>
+          <li><a href="#">Contacto</a></li>
         </ul>
-    </nav>
-    <div class="fondo_video">
-        <video autoplay muted preload loop
-        src="videos/EmmaWeb2.mp4"></video>
+      </nav>
+    </header>
+    <section class="container">
+      <div class="fondo_video">
+          <video autoplay muted preload loop src="videos/EmmaWeb2.mp4"></video>
+        </div>
+        <div class="sobreMi" id="SobreMi">
+    
+          <div class="Portion_Heading">
+                    <div class="fotobio">
+                         <img class="EmmaBio" src="fotos/SobreMiFoto.png" alt="EmmaBio">
+    
+                         </div>
+              <div class="texto">
+                <h2>SOBRE MÍ</h2>
+
+                <p>
+                    Hola Emma Ros.<br>
+                    Nací cuando Pedro Almodóvar estrenaba Pepi, Luci Bom y otras chicas del montón dispuesta a ser mi propia versión de la movida madrileña en la tranquila vida familiar de los Lapausa. Mi padre decidió llamarme Carolina por Carolina de Mónaco, el icono de los 80. Y es que los 80 marcaron… y mucho.
+
+                    Crecí rodeada de los tebeos y los poemas de Gloria Fuertes que venían con los suplementos dominicales de los periódicos. La primera vez que pisé un teatro iba disfrazada de pastorcita, fue después de la fiesta de Navidad del colegio. Tenía 4 años, era el Teatro de la Zarzuela, iba a ver el Ballet Nacional, horario adulto. Recuerdo los esfuerzos titánicos para vencer el sueño, no quería perderme ni un solo detalle de ese espectáculo de luz y color al que me llevó mi hermana mayor; la misma con la que un poco más tarde me pelearía casi a diario para que quitara su cd de David Bowie y me dejara escuchar el mío de las Spice Girls.
+                    
+                    Mi infancia transcurrió por los pasillos del Museo del Prado. Mi padre trabajaba allí y pasé muchas tardes viendo cuadros, cuadros y más cuadros. Cuando tienes 8 o 9 años es aburrido, pero gracias a esos momentos aprendí a inventarme historias, tal vez por pura supervivencia, pero me enamoré del arte y éste abrió las puertas de mi imaginación.
+                    
+                   
+                    
+                  </p>
+         
+         </div>
+        
+          <button> <a href="http://www.sandrabarrachina.com/wp-content/uploads/2022/04/sandra-barrachina.pdf"target="blank">
+            <span>Download CV&nbsp;</span><span class="jam jam-upload"></span>
+          </button></a>
+        </div>
+        <div class="videoReel">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6Fq1iyQ5ueM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-</body>
+   
+    </div>
+
+    <div class="Galeria" id="Galeria">
+        <div class="texto">
+
+        <h2>GALERÍA</h2>
+        </div>
+        <img src="fotos/emma2.jpeg" alt="">
+
+    </div>
+    </section>
+  </body>
 </html>

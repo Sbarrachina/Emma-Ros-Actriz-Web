@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
@@ -6,11 +10,19 @@
     box-sizing: border-box;
 }
 
+body{
+background-image: url(fotos/fondoPantalla.jpg);
+background-size: cover;
+background-attachment: fixed;
+
+
+
+}
+
 nav{
-    background: #0bb9d4;
+    background: #e52d09;
     height: 100px;
     width: 100%;
-    margin-top: 15px;
 }
 .enlace{
     position: absolute;
@@ -37,11 +49,11 @@ nav ul li a{
     text-transform: uppercase;
 }
 li a.active, li a:hover{
-    background: #cfcfdd;
+    color: #cfcfdd;
     transition: .5s;
 }
 .checkbtn{
-    font-size: 30px;
+    font-size: 40px;
     color: #fff;
     float: right;
     line-height: 80px;
@@ -57,12 +69,86 @@ li a.active, li a:hover{
     position: relative;
 }
 video{
-    position:absolute;
     top: 0;
     width: 100%;
     object-fit: cover;
     
 }
+
+/*Bio */
+
+.EmmaBio{
+    width: 90vh;
+    padding: 20px;
+    
+}
+
+.sobreMi{
+    width: 60%;
+    padding-left: 70px;
+    padding-top: 30px;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 30px;
+    
+    
+}
+
+p{
+	color: #f7f5f5;
+    font-size: 20px;
+    font-family:'Source Sans Pro', sans-serif;
+    margin-top: 10px;
+
+}
+span{
+	color:#110f0f;
+}
+
+h2{
+	color: #e52d09;
+}
+
+button{
+	outline: none;
+	border: none;
+	background: #e52d09;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+	padding: 10px 25px;
+	border-radius: 6px;
+}
+button span{
+	color: #fff;
+	font-weight: 500;
+}
+button span.material-icons-outlined{
+	font-size: 24px;
+}
+button span.jam{
+	font-size: 25px;
+}
+
+
+.videoReel{
+    padding-top: 40px;
+}
+
+/*galeria */
+
+.Galeria{
+    width: 60%;
+    padding-left: 70px;
+    padding-top: 30px;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 30px;
+    
+}
+
 
 
 
@@ -87,7 +173,7 @@ video{
     }
 
     nav{
-        background: #0bb9d4;
+        background:#e52d09;
         height: 100vw;
         width: 100%;
         margin-top: 15px;
@@ -117,4 +203,9 @@ video{
     #check:checked ~ ul{
         left:0;
     }
+    .EmmaBio{
+        width: 40vh;
+        padding: 10px;
+
+}
 }
