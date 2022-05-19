@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --accent: #e63946;
+    --dark: #17191D;
+    --light: #f4f4f4;
+    --overlay: rgba(23,25,29,0.8);
+    --ease: all 0.3s ease 0s;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background-color: var(--light);
+    
+   
+}
+
+p, button, h1, h4 {
+    color: var(--light);
+}
+.back{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+p, h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h4, button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: var(--dark);
+}
+
+p {
+    font-size: 18px;
+    color: var(--dark);
+}
+
+h4 {
+    font-size: 18px;
+    color: var(--dark);
+}
+
+h2{
+    color: #fff;
+    margin-left: 10px;
+}
+
+
+
+button {
+    cursor: pointer;
+    transition: var(--ease);
+    
+}
+
+button:hover {
+    transform: scale(1.02);
+}
+
+/* Boton volver */
+
+.button_gallery{
+    margin-top: 10px;
+    display: flex;
+    justify-content:center;
+    font-size: 20px;
+    color:var(--dark);
+
+    
+
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "top__section"
+    "content__section"
+
+}
+
+.top__section {
+    grid-area: top__section;
+    min-height: 370px;
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    grid-template-areas: 
+    ". header .";
+    background: linear-gradient(var(--light),var(--accent)), url(images/image-17.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header p {
+    max-width: 570px;
+    margin-bottom: 30px;
+}
+
+header button {
+    width: 131px;
+    padding: 12px 0;
+    background-color: var(--accent);
+    border: none;
+}
+
+.content__section {
+    grid-area: content__section;
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    grid-template-areas: 
+    ". playlist__one ."
+    ". playlist__two ."
+    ". playlist__tree ."
+    ;
+    margin-bottom: 60px;
+}
+
+.playlist__one {
+    grid-area: playlist__one;
+}
+
+.playlist__two {
+    grid-area: playlist__two;
+}
+
+.playlist__tree {
+    grid-area:playlist__tree; 
+}
+
+.playlist__title {
+    margin: 30px 0;
+}
+
+.videos {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+}
+
+.video {
+    height: 180px;
+    grid-column-start: span 3;
+    position: relative;
+    transition: var(--ease);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.video:hover {
+    transform: scale(1.02);
+}
+
+.video i {
+    cursor: pointer;
+    font-size: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--light);
+    opacity: 0.85;
+    transition: var(--ease);
+}
+
+.video i:hover {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 1200px) {
+    .video {
+        grid-column-start: span 6;
+        height: 240px;
+    }
+
+.video {}
+
+.video {}
+
+.video {}
+
+.video {}
+
+.video {}
+}
+
+@media only screen and (max-width: 800px) {
+    .video {
+        grid-column-start: span 12;
+    }
+}

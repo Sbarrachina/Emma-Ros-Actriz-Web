@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap');
 
 
+:root {
+    --accent: #e63946;
+    --dark: #17191D;
+    --light: #f4f4f4;
+    --overlay: rgba(23,25,29,0.8);
+    --ease: all 0.3s ease 0s;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -18,9 +26,9 @@ background-attachment: fixed;
 
 
 }
-
+/* BARRA DE NAVEGACION */
 nav{
-    background: #e52d09;
+    background: linear-gradient(var(--light),var(--accent));
     height: 100px;
     width: 100%;
 }
@@ -49,7 +57,7 @@ nav ul li a{
     text-transform: uppercase;
 }
 li a.active, li a:hover{
-    color: #cfcfdd;
+    color: #e63946;;
     transition: .5s;
 }
 .checkbtn{
@@ -64,6 +72,9 @@ li a.active, li a:hover{
 #check{
     display: none;
 }
+
+
+/* VIDEO */
 
 .fondo_video{
     position: relative;
@@ -96,7 +107,7 @@ video{
 
 p{
 	color: #f7f5f5;
-    font-size: 18px;
+    font-size: 22px;
     font-family:'Source Sans Pro', sans-serif;
     margin-top: 10px;
 
@@ -106,13 +117,13 @@ span{
 }
 
 h2{
-	color: #e52d09;
+	color: #e63946;
 }
 
 button{
 	outline: none;
 	border: none;
-	background: #e52d09;
+	background: #e63946;
 	color: #fff;
 	display: flex;
 	align-items: center;
@@ -120,6 +131,7 @@ button{
 	margin-top: 40px;
 	padding: 10px 25px;
 	border-radius: 6px;
+    font-size: 16px;
 }
 button span{
 	color: #fff;
@@ -147,7 +159,7 @@ h1{
     font-size: 40px;
 }
 .linea{
-    background: #550b51;
+    background: #e63946;
     height: 5px;
     width: 100%;
     display: block;
@@ -280,7 +292,7 @@ transform:scale(0);
     }
     nav ul li{
         display: block;
-        margin: 50px 0;
+        margin: 10px 0;
         line-height: 30px;
     }
     nav ul li a{
