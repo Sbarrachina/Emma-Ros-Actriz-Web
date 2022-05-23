@@ -27,6 +27,15 @@ body {
 
 /* HEADER */
 
+.main {
+    width: 1080px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+
+
+
 p, button, h1, h4 {
     color: var(--light);
 }
@@ -55,13 +64,37 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    display: block;
+    overflow: hidden;
+    padding: 28px 0 0;
+    position: relative;
 }
 
 header h1 {
 	position: relative;
     z-index: 800;
     margin-bottom: 23px;
+    text-align: center;
+
 }
+
+header h1 a {
+	display: inline-block;
+	overflow: hidden;
+	width: 238px;
+    height: 97px;
+	font-size: 0;
+	line-height: 0;
+	text-indent: -999px;
+	transition: 0s ease;
+	-o-transition: 0s ease;
+	-webkit-transition: 0s ease;
+}
+header h1 a img {
+	display: block;
+}
+
 
 header button {
     width: 131px;
@@ -177,8 +210,7 @@ a.btn:hover {
 	padding: 0 !important;
 }
 
-.pad1 {
-}
+
 
 
 .img_inner {
@@ -237,46 +269,16 @@ a.btn:hover {
 
 /*header*/
 
-.main {
-    width: 1080px;
-    margin: 0 auto;
-    background-color: #fff;
-}
-
-
-header {
-	display: block;
-    overflow: hidden;
-    padding: 28px 0 0;
-    position: relative;
-
-}
-
-
-header h1 {
-	position: relative;
-    text-align: center;
-    z-index: 800;
-    margin-bottom: 23px;
-}
 
 
 
-header h1 a {
-	display: inline-block;
-	overflow: hidden;
-	width: 238px;
-    height: 97px;
-	font-size: 0;
-	line-height: 0;
-	text-indent: -999px;
-	transition: 0s ease;
-	-o-transition: 0s ease;
-	-webkit-transition: 0s ease;
-}
-header h1 a img {
-	display: block;
-}
+
+
+
+
+
+
+
 
 
 /**Content**/
@@ -839,8 +841,7 @@ a.gal:hover img {
 	display: block;
 }
 
-.map .fright {
-}
+
 
 .map address dt {
     margin-bottom: 18px;
@@ -860,9 +861,7 @@ a.gal:hover img {
     font-weight: normal;
  }
 
-.map a {
 
-}
 
 
 a.link-1 {
