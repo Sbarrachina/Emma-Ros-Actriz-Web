@@ -83,6 +83,7 @@ video{
     top: 0;
     width: 100%;
     object-fit: cover;
+    margin-top: 50px;
     
 }
 
@@ -95,7 +96,6 @@ video{
 }
 
 .sobreMi{
-    width: 60%;
     padding-left: 70px;
     padding-top: 30px;
     margin-left: 25px;
@@ -118,6 +118,7 @@ span{
 
 h2{
 	color: #e63946;
+    font-family:'Source Sans Pro', sans-serif;
 }
 
 button{
@@ -310,4 +311,143 @@ transform:scale(0);
         padding: 10px;
 
 }
+}
+
+/* formulario */
+html{
+	scroll-behavior: smooth!important;
+}
+
+
+/* CSS VARIABLES*/
+:root{
+	--mode_color:#FFFFFF;
+	--theme_color:#A97AFD;
+	--black_color:#000000;
+	--dull_black: #222222;
+	--white_color:#FFFFFF;
+	--light_silver:#777777;
+	--border_color:#E5E5E5;
+	--normal_text:16px;
+	--small_text:15px;
+	--large_text:20px;
+	--larger_text:22px;
+	--largest_text:28px;
+	--shadow:rgba(0, 0, 0, 0.1) 0px 1px 4px 0px, rgba(0, 0, 0, 0.06) 0px 1px 3px 0px;
+}
+
+
+/*/CSS VARIABLES*/
+/* COMMON CSS*/
+
+.container-fluid{
+	background: var(--mode_color);
+    padding: 70px 0!important;
+
+   
+}
+
+
+.Contect_Me_Portion .col-xl-5,
+.Contect_Me_Portion .col-xl-7{
+	margin-bottom: 30px!important ;
+}
+
+
+.Portion_Heading h2{
+	margin-bottom: 8px;
+    font-size: 50px;
+    text-align: center;
+}
+.Portion_Heading span{
+	font-size: var(--normal_text);
+	text-align: center;
+	display: block;
+}
+
+
+span{
+	color: var(--dark_silver);
+}
+
+h5{
+	font-size: 20px;
+	white-space: nowrap;
+	font-weight: 500;
+	color: var(--dull_black);
+	margin-bottom: 8px;
+}
+
+
+element.style {
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+
+
+input{
+	outline: none;
+	border: 1px solid var(--border_color);
+	width: 100%;
+	height: 48px;
+	padding: 0 16px;
+	color: var(--light_silver);
+	background: var(--mode_color);
+	border-radius: 6px;
+	margin-bottom: 25px;
+}
+textarea{
+	outline: none;
+	border: 1px solid var(--border_color);
+	width: 100%;
+	height: 190px;
+	padding: 12px 16px;
+	background: var(--mode_color);
+	color: var(--light_silver);
+	border-radius: 6px;
+	margin-bottom: 25px;
+}
+
+
+/* CONTACTO */
+.Contect_Me_Portion .contect_card{
+	padding: 25px 30px;
+	display: flex;
+	align-items: flex-start;
+	border-radius: 6px;
+	margin-bottom: 25px;
+	margin-bottom: 25px;
+	background: var(--white_color);
+	box-shadow: var(--shadow);
+}
+.Contect_Me_Portion .contect_card .icon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--accent);
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+}
+.Contect_Me_Portion .contect_card .icon span{
+	color: var(--white_color);
+	font-size: 30px;
+}
+.Contect_Me_Portion .contect_card .contect_detail{
+	padding-left: 20px;
+}
+.Contect_Me_Portion .contect_card .contect_detail span{
+	display: block;
+	font-size: var(--small_text);
+	color: var(--light_silver);
 }

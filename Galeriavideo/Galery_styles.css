@@ -23,6 +23,7 @@ body {
 
 p, button, h1, h4 {
     color: var(--light);
+    
 }
 .back{
     display: flex;
@@ -37,15 +38,16 @@ p, h1 {
 
 h4, button {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-weight: 600;
+    ;
+    
 }
 
 h1 {
     font-size: 48px;
     margin-bottom: 20px;
     color: var(--dark);
-    text-align: c;
+    text-align: center
 }
 
 p {
@@ -54,7 +56,7 @@ p {
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 22px;
     color: var(--dark);
 }
 
@@ -84,7 +86,6 @@ button:hover {
 /* Boton volver */
 
 .button_gallery{
-    margin-top: 5px;
     display: flex;
     justify-content:center;
     font-size: 22px;
@@ -130,8 +131,7 @@ header p {
 }
 
 header button {
-    width: 131px;
-    padding: 12px 0;
+    width: 125px;
     background-color: var(--accent);
     border: none;
 }
