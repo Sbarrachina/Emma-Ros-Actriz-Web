@@ -451,3 +451,76 @@ textarea{
 	font-size: var(--small_text);
 	color: var(--light_silver);
 }
+
+/* premios */
+/* emma_premios 1 */
+
+.emma_premios{
+}
+
+.premios_foto{
+    position: relative;
+    width: 492px;
+    height: 442px;
+    top: 5px;
+    margin-top: 50px;
+    
+}
+
+
+.rectangulo{
+    position:relative;
+    width: 539px;
+    height: 452px;
+    left: 550px;
+    top: -450px;
+    
+    background: rgba(217, 217, 217, 0.26);
+    backdrop-filter: blur(10px);
+    border-radius: 14px;
+    
+    }
+
+    .premios{
+        position: relative;
+        width: 160px;
+        height: 44px;
+        left: 730px;
+        top: -10px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 44px;
+        color: var(--accent);
+    
+    }
+    .premios-texto{
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 20px;
+     margin: 40px;
+     color: #000000; 
+     margin-top: -25px;
+    }
+
+    .formacion{
+    background: rgba(217, 217, 217, 0.26);
+    backdrop-filter: blur(10px);
+    width: 1100px;
+    height: 460px;
+    margin-top: -400px;
+    border-radius: 14px;
+
+    }
+    .bailarina{
+        width: 25%;
+        margin-top: 10px;
+        padding: 20px;
+        font-family:'Source Sans Pro', sans-serif;
+        float: left;
+    }
+    .texto-formacion , p {
+        font-size: 20px;
+
+    }      
