@@ -508,19 +508,21 @@ textarea{
     background: rgba(217, 217, 217, 0.26);
     backdrop-filter: blur(10px);
     width: 1100px;
-    height: 460px;
+    height: 580px;
     margin-top: -400px;
     border-radius: 14px;
 
     }
     .bailarina{
         width: 25%;
-        margin-top: 10px;
+        margin-top: 20px;
         padding: 20px;
         font-family:'Source Sans Pro', sans-serif;
         float: left;
     }
     .texto-formacion , p {
         font-size: 20px;
+        margin-left: 140px;
 
     }      
+    
