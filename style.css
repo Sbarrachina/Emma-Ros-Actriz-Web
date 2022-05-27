@@ -104,8 +104,7 @@ video{
     
     
 }
-
-p{
+p {
 	color: var(--dark);
     font-size: 22px;
     font-family:'Source Sans Pro', sans-serif;
@@ -508,7 +507,7 @@ textarea{
     background: rgba(217, 217, 217, 0.26);
     backdrop-filter: blur(10px);
     width: 1100px;
-    height: 580px;
+    height: 590px;
     margin-top: -400px;
     border-radius: 14px;
 
@@ -520,9 +519,9 @@ textarea{
         font-family:'Source Sans Pro', sans-serif;
         float: left;
     }
-    .texto-formacion , p {
+    .danza-p{
         font-size: 20px;
-        margin-left: 140px;
+        margin-left: 276px;
 
     }      
     
