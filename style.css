@@ -22,7 +22,7 @@ body{
 /* background-image: url(fotos/fondoPantalla.jpg);
 background-size: cover;
 background-attachment: fixed; */
-
+background: #dbe3eb;
 
 
 }
@@ -378,20 +378,7 @@ h5{
 }
 
 
-element.style {
-}
-[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
-    cursor: pointer;
-}
-[type=button], [type=reset], [type=submit], button {
-    -webkit-appearance: button;
-}
-button, select {
-    text-transform: none;
-}
-button, input {
-    overflow: visible;
-}
+
 
 
 input{
@@ -454,8 +441,7 @@ textarea{
 /* premios */
 /* emma_premios 1 */
 
-.emma_premios{
-}
+
 
 .premios_foto{
     position: relative;
