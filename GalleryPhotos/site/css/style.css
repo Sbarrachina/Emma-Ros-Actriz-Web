@@ -948,8 +948,15 @@ ul{
 }
 .gallery {
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 5px;
 }
+
+header {
+padding: 10px 0 0;
+height: 300px;
+}
+
+
 
 
 }

@@ -275,29 +275,36 @@ transform:scale(0);
     }
 
     nav{
-        background:#e52d09;
-        height: 100vw;
+        background:var(--accent);
         width: 100%;
         margin-top: 15px;
     }
     ul{
        /* position: fixed;*/
         width: 100%;
-        height: 43vh;
-        background: #dbe3eb;
+        /* height: 43vh; */
+        background: #0b0b0b;
         top: 80px;
         left: -100%;
         text-align: center;
         transition: all .5s;
     }
+
+
+    nav ul li a{
+        color: rgb(254, 247, 247);
+        font-size: 13px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+
     nav ul li{
         display: block;
         margin: 10px 0;
         line-height: 30px;
     }
-    nav ul li a{
-        font-size: 20px;
-    }
+    
     li a:hover, li a.active{
         background: none;
         color: red;
@@ -376,8 +383,6 @@ h5{
 	color: var(--dull_black);
 	margin-bottom: 8px;
 }
-
-
 
 
 
