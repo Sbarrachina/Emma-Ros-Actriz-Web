@@ -112,7 +112,7 @@ a:hover {
     grid-template-columns: 10% 1fr 10%;
     grid-template-areas: 
     ". header .";
-    background: linear-gradient(var(--light),var(--accent));
+    background: linear-gradient(var(--light),var(--accent)), url(images/image-17.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
