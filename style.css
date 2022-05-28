@@ -275,7 +275,8 @@ transform:scale(0);
     }
 
     nav{
-        background:var(--accent);
+        background:#f5f3f3;
+        height: 100vw;
         width: 100%;
         margin-top: 15px;
     }
@@ -292,8 +293,8 @@ transform:scale(0);
 
 
     nav ul li a{
-        color: rgb(254, 247, 247);
-        font-size: 13px;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
         padding: 7px 13px;
         border-radius: 3px;
         text-transform: uppercase;
@@ -304,7 +305,9 @@ transform:scale(0);
         margin: 10px 0;
         line-height: 30px;
     }
-    
+    nav ul li a{
+        font-size: 20px;
+    }
     li a:hover, li a.active{
         background: none;
         color: red;
@@ -383,6 +386,8 @@ h5{
 	color: var(--dull_black);
 	margin-bottom: 8px;
 }
+
+
 
 
 
@@ -603,6 +608,7 @@ textarea{
         width: 50%;
         margin-bottom: 30px;
     }
+    
     }
     @media(max-width: 574px){
       .footer-col{
