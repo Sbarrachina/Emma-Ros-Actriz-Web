@@ -254,8 +254,6 @@ transform:scale(0);
 
 }
 
-
-
 @media (max-width: 952px){
     .enlace{
         padding-left: 20px;
@@ -320,6 +318,20 @@ transform:scale(0);
         padding: 10px;
 
 }
+}
+
+/* sobre mi  */
+
+
+@media (max-width: 952px){
+    .sobreMi{
+    margin-left: -75px;
+}
+  }
+  
+
+
+@media (max-width: 858px){
 }
 
 /* formulario */
